@@ -9,9 +9,9 @@ function displayNav() {
 
 function addLinkEffect() {
     // navLink.style.transform-property = "transform"
-    navLink.style.transform = "scale(1.2)"
-    navLink.style.transitionProperty= "transform"
-    navLink.style.transitionDuration = "2s";
+    // navLink.style.transform = "scale(1.2)"
+    // navLink.style.transitionProperty= "transform"
+    // navLink.style.transitionDuration = "2s";
     sideNav.classList.toggle('active')
 
     // navLink.style.transform-delay = ".3s"
