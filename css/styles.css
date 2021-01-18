@@ -271,7 +271,7 @@ nav {
     background-color: var(--main-color);
     /* width: 100vw; */
     position: absolute;
-    z-index: 15;
+    z-index: 150000;
     padding: 20px 4rem;
     top: 100%;
     left: 0;
