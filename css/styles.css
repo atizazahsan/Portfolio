@@ -34,7 +34,7 @@ body {
     position: relative;
     right: 0;
     top: 0;
-    width: 100%;
+    width: 100vw;
     min-height: 100vh;
     /* padding: 100px; */
     display: flex;
@@ -107,7 +107,7 @@ nav {
     clip-path:circle(50%);
     align-items: center;
 } 
-.mobile-menu {
+/* .mobile-menu {
     background-color: var(--menus-color-active);
     width: 500px;
     height: 100%;
@@ -138,7 +138,7 @@ nav {
  .mobile-menu a:nth-child(1){
     /* margin-top: 150px; */
  }
-
+ */
 
 
 
