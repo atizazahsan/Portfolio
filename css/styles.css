@@ -223,12 +223,6 @@ nav {
         font-size: 30px;
     }
 
-    /* About */
-    .about {
-        padding: 20px 2rem;
-        margin: 0;
-    }
-
     /*  */
 
     .svg-icon {
@@ -247,8 +241,7 @@ nav {
     background-color: var(--main-color);
     /* width: 100vw; */
     position: absolute;
-    z-index: 150000;
-    padding: 20px 4rem;
+    z-index: 150;
     top: 100%;
     left: 0;
 }
@@ -300,6 +293,10 @@ nav {
 @media (min-width : 56.25em) {
     .about-grid {
         grid-template-columns : 1fr 1fr   
+    }
+
+    .about {
+        padding: 20px 4rem;
     }
    }
 .about-items {
