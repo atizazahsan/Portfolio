@@ -59,9 +59,14 @@ header {
 }
 
 nav {
-    padding: 40px 100px;
+    padding: 10px 40px;
 }
 
+@media (max-width : 700px) {
+    nav {
+        padding: 10px 40px;
+    }
+}
 
 
 /* Navigation */
@@ -108,6 +113,33 @@ nav {
     align-items: center;
 } 
 
+.mobile-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    /* width: 100% ; */
+    height: 100%;
+    position: fixed ;   
+}
+
+.mobile-menu a {
+    color: var(--primary-color) ;
+    display: block;
+    text-decoration: none;
+    padding: 20px 100px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.mobile-menu a:hover {
+    color: var(--secondary-color);
+}
+
+.mobile-menu a:first-child {
+    margin-top: 200px;
+}
 
 
 /* Header Image and Content */
